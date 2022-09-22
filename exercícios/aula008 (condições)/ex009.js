@@ -1,5 +1,5 @@
-var país = 'BRA'
-console.log(`vivendo em ${país}`)
+var país = 'EUA'
+console.log(`Nascido em ${país}`)
 if (país == 'BRA') {
     console.log('BRASILEIRO')
 }
