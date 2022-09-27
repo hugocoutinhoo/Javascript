@@ -19,6 +19,12 @@ section {
     box-shadow: rgba(0, 0, 0, 0.356) 3px 4px 10px;
 }
 
+img#foto {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
 footer {
     text-align: center;
     font-style: italic;
