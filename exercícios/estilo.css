@@ -30,6 +30,7 @@ section {
 input#botao {
     background-color: #0f12b86c;
     color: white;
+    font-weight: bold;
     border-radius: 5px;
     
 }
