@@ -1,8 +1,8 @@
 /*
-var c = 1
-while (c<=5) {
+var c = 1 -> Início
+while (c <= 5) -> Teste Lógico {
     console.log(c)
-    c++
+    c++ -> Incremento
 }
 */
 
