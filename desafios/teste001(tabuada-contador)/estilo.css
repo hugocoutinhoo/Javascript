@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(22, 39, 38), rgb(51, 109, 101), rgb(27, 189, 167));
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+    color: rgb(110, 237, 237);
+    font-size: 20px;
+    text-shadow:  0 0 1em;
+}
+section {
+    background-color: rgba(255, 255, 255, 0.068);
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.329) 2px 5px 9px;
+    font-size: 20px;
+    text-shadow:  0 0 1em;
+    color: rgb(110, 237, 237);
+}
+
+#num {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow:  0 0 1em;
+    color: rgb(110, 237, 237);
+    background-color: rgba(127, 255, 212, 0.363);
+    border-radius: 10px;
+
+}
+
+#botao {
+    position: relative;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: rgb(44, 157, 157);
+    color: rgb(110, 237, 237);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em rgb(110, 237, 237);
+    border-radius: 10px;
+    border: solid rgb(110, 237, 237);
+    box-shadow: 0 0 0.5em 0.2em rgb(110, 237, 237);
+
+}
+
+#botao:hover {
+    color: rgb(44, 157, 157);
+    background-color: rgb(110, 237, 237);
+    box-shadow: 0 0 1em 0.25em rgb(110, 237, 237), 0 0 5em 1em rgba(65, 243, 243, 0.781);
+}
+
+#tabela {
+    padding-top: 13px;
+    text-align: center;
+}
+
+#tab {
+    border: none;
+    overflow: hidden;
+    margin-left: 10px;
+    background-color: rgba(0, 255, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(110, 237, 237);
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(110, 237, 237);
+}
