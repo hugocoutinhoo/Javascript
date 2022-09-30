@@ -39,7 +39,7 @@ body {
 #login input {
     margin-top: 10px;
     background-color: #252A36;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     border: none;
     outline: none;
@@ -51,6 +51,7 @@ input::placeholder {
     color: #CBD0F7;
     font-size: 14px;
 }
+
 
 form > input#entrar {
     margin-top: 29px;
