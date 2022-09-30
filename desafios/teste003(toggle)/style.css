@@ -47,15 +47,16 @@ body {
 }
 
 #icon {
-    position: fixed;
-    top: 47%;
-    right: 31%;
-    width: 30px;
-    height: 30px;
-    transform: translateY(-2%);
     background: url('./imagens/show.png');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    
+    border: none;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 150%;
+    left: 90%;
 }
+
