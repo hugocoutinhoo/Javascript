@@ -105,6 +105,11 @@ a {
     
 }
 
+#olho.hide {
+    background: url('./imagens/hide2.png');
+    background-size: cover;
+}
+
 #olho:hover {
     background: url('./imagens/show2.png');
     background-size: cover;
