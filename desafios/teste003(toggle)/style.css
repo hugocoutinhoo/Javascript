@@ -57,8 +57,13 @@ body {
     line-height: 20px;
     width: 20px;
     position: relative;
-    bottom: 130%;
+    bottom: 25%;
     left: 90%;
+}
+
+#icon.hide {
+    background: url('./imagens/hide.png');
+    background-size: cover;
 }
 
 input::placeholder {
