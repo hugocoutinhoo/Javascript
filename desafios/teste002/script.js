@@ -1,5 +1,5 @@
-const senha = document.getElementById('senha');
-const olho = document.getElementById('olho');
+var senha = document.getElementById('senha');
+var olho = document.getElementById('olho');
 
 function showhide() {
     if (senha.type === 'senha') {
