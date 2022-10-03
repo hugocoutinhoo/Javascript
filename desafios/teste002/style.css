@@ -89,3 +89,23 @@ a {
     text-decoration: none;
     margin-left: 6px;
 }
+
+#olho {
+    background: url('./imagens/show1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 770%;
+    left: 90%;
+    
+}
+
+#olho:hover {
+    background: url('./imagens/show2.png');
+    background-size: cover;
+}
