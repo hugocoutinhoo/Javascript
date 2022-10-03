@@ -22,7 +22,7 @@ body {
     height: 460px;
     width: 340px;
     padding: 40px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 #login img {
@@ -39,10 +39,11 @@ body {
 
 #login input {
     margin-top: 10px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
+    border: solid rgb(83, 128, 0);
     outline: none;
-    color: #CBD0F7;
+    color: #000000;
     font-size: 15px;
 }
 
@@ -56,7 +57,11 @@ body {
     line-height: 20px;
     width: 20px;
     position: relative;
-    bottom: 150%;
+    bottom: 130%;
     left: 90%;
+}
+
+input::placeholder {
+    font-size: 13px;
 }
 
