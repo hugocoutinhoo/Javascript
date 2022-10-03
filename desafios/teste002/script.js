@@ -1,7 +1,7 @@
-var senha = document.getElementById('senha');
-var olho = document.getElementById('olho');
-
-function showhide() {
+function showhide(){
+    const senha = document.getElementById('senha');
+    const olho = document.getElementById('olho');
+    
     if (senha.type === 'senha') {
         senha.setAttribute('type','text');
         olho.classList.add('hide')
