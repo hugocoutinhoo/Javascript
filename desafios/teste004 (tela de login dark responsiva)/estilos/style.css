@@ -145,10 +145,16 @@ form > a.botao > i {
     font-size: 0.8em;
 }
 
-div.campo > img#eyeSvg {
-    position: absolute;
-    top: 70%;
-    left: 87%;
+div.campo > button#eyeSvg {
+    background: url("../imagens/show.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: relative;
+    bottom: 97%;
+    left: 87%;
     display: block;
 }
