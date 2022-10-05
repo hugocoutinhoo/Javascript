@@ -26,7 +26,7 @@ section#login {
     overflow: hidden;
     background-color: #00040C;
     width: 250px;
-    height: 515px;
+    height: 530px;
     border-radius: 20px;
     border: 1px solid #8701D7;
     box-shadow: 0px 0px 10px rgb(13, 34, 216);
@@ -64,14 +64,13 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #0b01c9c5;
-    border: 2px solid #8701D7;
-    box-shadow: 0px 0px 7px rgb(13, 34, 216);
+    background-color: #1912a0b4;
+    box-shadow: 0px 0px 4px rgb(13, 34, 216);
     display: block;
     width: 100%;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0px;
+    margin: 7px 0px;
 }
 
 div.campo > label {
@@ -102,7 +101,7 @@ div.campo > input:focus-within {
 }
 
 form > input[type=submit] {
-    margin-top: 10px;
+    margin-top: 12px;
     display: block;
     font-size: 1em;
     width: 100%;
@@ -115,7 +114,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover {
-    color: rgb(44, 157, 157);
+    color: #e4bcae;
     background-color: #8701D7;
     box-shadow: 0 0 1em 0.25em #8701D7, 0 0 3em 1em rgba(39, 66, 218, 0.781);
 }
