@@ -5,12 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
-        <section>
-            <input type="password" name="senha" id="senha">
-            <img id="eyeSvg" src="show.png" width="20px" alt="" onclick="eyeClick()">
+        <section id="login">
+            <div id="imagem">
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" required minlength="6" maxlength="20">
+                        <label>Usuário</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="password" name="senha" id="senha" required minlength="6" maxlength="20">
+                        <img id="eyeSvg" src="show.png" width="20px" alt="" onclick="eyeClick()">
+                        <label>Senha</label>
+                    </div>
+
+                    <input type="submit" value="Entrar">
+                    <p>Esqueceu a senha? <a href="#">clique aqui</a></p>
+                    <p>Ainda não tem uma conta? <a href="#">Registre-se</a></p>
+                
+                </form>
+            </div>
         </section>
     </main>
     <script src="script.js"></script>

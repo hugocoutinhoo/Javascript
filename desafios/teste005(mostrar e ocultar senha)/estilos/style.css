@@ -1,0 +1,105 @@
+@charset "UTF=8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #000000de;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: #00040C;
+    width: 310px;
+    height: 530px;
+    border-radius: 20px;
+    border: 1px solid #8701D7;
+    box-shadow: 0px 0px 10px rgb(13, 34, 216);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #000000 url('../imagens/viva.jpg') no-repeat;
+    background-position: left top;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 5px;
+}
+
+div#formulario > h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgba(0, 0, 255, 0.514);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form > div.campo {
+    background-color: #1912a0b4;
+    box-shadow: 0px 0px 4px rgb(13, 34, 216);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 7px 0px;
+}
+
+div.campo > input {
+    background-color: #ffffff;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-1px);
+}
+
+img#eyeSvg {
+    position: relative;
+    bottom: 73%;
+    left: 90%;
+    cursor: pointer;
+}
+
+form > input[type=submit] {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #8701D7;
+    color: #eccece;
+    border: 1px solid #0B01C9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    color: #fdfdfd;
+    background-color: #8701D7;
+    box-shadow: 0 0 1em 0.30em #8701D7, 0 0 3em 1em rgba(39, 66, 218, 0.781);
+}
