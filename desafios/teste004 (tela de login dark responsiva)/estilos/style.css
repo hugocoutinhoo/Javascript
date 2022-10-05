@@ -144,3 +144,11 @@ form > a.botao:hover {
 form > a.botao > i {
     font-size: 0.8em;
 }
+
+div.campo > img#eyeSvg {
+    position: absolute;
+    top: 70%;
+    left: 87%;
+    background-size: cover;
+    display: block;
+}
