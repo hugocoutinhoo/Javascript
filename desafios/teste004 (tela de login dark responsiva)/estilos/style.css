@@ -102,21 +102,22 @@ div.campo > input:focus-within {
 
 form > input[type=submit] {
     margin-top: 12px;
+    margin-bottom: 8px;
     display: block;
     font-size: 1em;
     width: 100%;
     height: 40px;
     background-color: #8701D7;
-    color: #E4BCAE;
-    border: 1px solid #0B01C9;;
+    color: #eccece;
+    border: 1px solid #0B01C9;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    color: #e4bcae;
+    color: #fdfdfd;
     background-color: #8701D7;
-    box-shadow: 0 0 1em 0.25em #8701D7, 0 0 3em 1em rgba(39, 66, 218, 0.781);
+    box-shadow: 0 0 1em 0.30em #8701D7, 0 0 3em 1em rgba(39, 66, 218, 0.781);
 }
 
 form > a.botao {
@@ -127,15 +128,17 @@ form > a.botao {
     height: 40px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color: #ffffff;
-    border: 1px solid #49a09d;
+    background-color: #afc4f1;
+    border: 1px solid #0B01C9;
     border-radius: 7px;
     text-decoration: none;
-    color: #2d6462;
+    color: rgb(255, 255, 255);
 }
 
 form > a.botao:hover {
-    background-color: #6cd3cf;
+    background-color: white;
+    color: #8701D7;
+    box-shadow: 0 0 1em 0.30em #ffffff, 0 0 3em 1em rgba(39, 66, 218, 0.781);
 }
 
 form > a.botao > i {
